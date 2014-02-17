@@ -3,7 +3,7 @@
 //    Defines the IDropBoxService type.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace MvvmCross.DropBoxService.Services
+namespace  $safeprojectname$.Services
 {
     using System;
 

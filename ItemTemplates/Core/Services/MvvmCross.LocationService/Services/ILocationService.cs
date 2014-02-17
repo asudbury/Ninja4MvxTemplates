@@ -3,7 +3,7 @@
 //    Defines the ILocationService type.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace MvvmCross.LocationService.Services
+namespace $safeprojectname$.Services
 {
     /// <summary>
     /// Defines the ILocationService type.

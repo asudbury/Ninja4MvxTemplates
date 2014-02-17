@@ -7,15 +7,9 @@
     <TemplateID>2dd85ad5-2cef-49f2-95ff-a0e1efca35b2</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
     <DefaultName>Class.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
-    <References>
-      <Reference>
-        <Assembly>System</Assembly>
-      </Reference>
-    </References>
-    <ProjectItem ReplaceParameters="true">Class.cs</ProjectItem>
-  </TemplateContent>
+ </TemplateContent>
 </VSTemplate>

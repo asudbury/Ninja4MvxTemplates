@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>MvvmCross Wpf SampleData View</Name>
+    <Description>MvvmCross Wpf SampleData View</Description>
+    <Icon>MvvmCross.ico</Icon>
+    <TemplateID>188f7387-50ad-4b71-828d-b9bfd6a102dc</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+    <DefaultName>MvvmCross Wpf SampleData View.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    
+    <ProjectItem ReplaceParameters="true" TargetFileName="Views\$fileinputname$.xaml">Views\SampleDataView.xaml</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Views\$fileinputname$.xaml.cs">Views\SampleDataView.xaml.cs</ProjectItem>
+
+  </TemplateContent>
+</VSTemplate>

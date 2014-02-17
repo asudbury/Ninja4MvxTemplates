@@ -1,0 +1,9 @@
+<CodeConfig>
+  <!--<NugetPackage>modernhttpclient</NugetPackage>-->
+  <BootstrapFileNameOverride>ModernHttpClientPluginBootstrap.cs</BootstrapFileNameOverride>
+  <References>
+    <Reference>System.Net.Http.dll</Reference>
+    <Reference>System.Net.Http.Extensions.dll</Reference>
+    <Reference>System.Net.Http.Primitives.dll</Reference>
+  </References>
+</CodeConfig>

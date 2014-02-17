@@ -7,7 +7,7 @@
     <TemplateID>909ca2e0-802a-4952-b0a5-786fa1f52bb8</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
     <DefaultName>FloatConverter.cs</DefaultName>
   </TemplateData>
   <TemplateContent>

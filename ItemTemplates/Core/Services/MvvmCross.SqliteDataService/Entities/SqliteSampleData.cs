@@ -3,7 +3,7 @@
 //    Defines the SqliteSampleData type.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace MvvmCross.SqliteDataService.Entities
+namespace $safeprojectname$.Entities
 {
     using Cirrious.MvvmCross.Community.Plugins.Sqlite;
 

@@ -58,12 +58,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\SqliteSampleData.cs" />
+    <None Include="Entities\SqliteSampleData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\SampleDataService.cs" />
-    <Compile Include="Services\ISampleDataService.cs" />
-    <Compile Include="Services\IBaseSqliteDataService.cs" />
-    <Compile Include="Services\BaseSqliteDataService.cs" />
+    <None Include="Services\SampleDataService.cs" />
+    <None Include="Services\ISampleDataService.cs" />
+    <None Include="Services\IBaseSqliteDataService.cs" />
+    <None Include="Services\BaseSqliteDataService.cs" />
   </ItemGroup>
   <ItemGroup>
     <VSTemplate Include="MvvmCross.SqliteDataService.vstemplate" />

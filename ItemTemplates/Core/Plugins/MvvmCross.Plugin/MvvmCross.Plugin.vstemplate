@@ -7,7 +7,7 @@
     <TemplateID>97df0d16-a318-4644-9cd4-7bee97a36cda</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
     <DefaultName>Plugin.cs</DefaultName>
   </TemplateData>
   <TemplateContent>

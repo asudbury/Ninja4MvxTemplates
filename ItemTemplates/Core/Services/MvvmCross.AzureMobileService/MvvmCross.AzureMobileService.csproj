@@ -56,11 +56,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\AzureMobileService.cs" />
-    <Compile Include="Services\IAzureMobileService.cs" />
+    <None Include="Services\AzureMobileService.cs" />
+    <None Include="Services\IAzureMobileService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Class.cs" />
     <None Include="MvvmCross.AzureMobileService.ico" />
   </ItemGroup>
   <ItemGroup>

@@ -3,9 +3,9 @@
 //    Defines the LocationMessage type.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace MvvmCross.LocationService.Entities
+namespace $safeprojectname$.Entities
 {
-    using Cirrious.MvvmCross.Plugins.Messenger;
+    using Cirrious.MvvmCross.Plugins.Messenger; 
 
     /// <summary>
     /// Defines the LocationMessage type.

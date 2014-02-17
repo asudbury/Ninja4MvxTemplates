@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>MvvmCross.iOS.View.Blank</Name>
+    <Description>MvvmCross.iOS.View.Blank</Description>
+    <Icon>MvvmCross.ico</Icon>
+    <TemplateID>fe1f8c0b-8635-463d-ad58-6fc913441cfc</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+    <DefaultName>MvvmCross.iOS.View.Blank.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Views\$fileinputname$.cs">Views\BlankView.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

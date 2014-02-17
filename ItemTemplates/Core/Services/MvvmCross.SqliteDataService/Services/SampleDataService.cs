@@ -3,7 +3,7 @@
 //    Defines the SampleDataService type.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace MvvmCross.SqliteDataService.Services
+namespace $safeprojectname$.Services
 {
     using Cirrious.MvvmCross.Community.Plugins.Sqlite;
 

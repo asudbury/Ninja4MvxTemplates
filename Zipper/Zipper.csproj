@@ -32,9 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NinjaCoder.MvvmCross, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\NinjaCoderForMvvmCross\NinjaCoder.MvvmCross\bin\Debug\NinjaCoder.MvvmCross.dll</HintPath>
+    <Reference Include="Scorchio.Infrastructure">
+      <HintPath>..\..\..\NinjaCoderForMvvmCross\Scorchio.Infrastructure\bin\Debug\Scorchio.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,6 +43,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\IoC\TinyIoC.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

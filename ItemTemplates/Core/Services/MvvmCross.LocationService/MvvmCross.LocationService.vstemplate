@@ -7,17 +7,12 @@
     <TemplateID>50a0e500-c1a3-4850-9710-9e21c100546c</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
     <DefaultName>LocationService.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
-    <References>
-      <Reference>
-        <Assembly>System</Assembly>
-      </Reference>
-    </References>
-    <ProjectItem TargetFileName="Services\LocationService.cs">Services\LocationService.cs</ProjectItem>
-    <ProjectItem TargetFileName="Services\ILocationService.cs">Services\ILocationService.cs</ProjectItem>
-    <ProjectItem TargetFileName="Entities\LocationMessage.cs">Entities\LocationMessage.cs</ProjectItem>
+    <ProjectItem TargetFileName="Services\LocationService.cs" ReplaceParameters="true">Services\LocationService.cs</ProjectItem>
+    <ProjectItem TargetFileName="Services\ILocationService.cs" ReplaceParameters="true">Services\ILocationService.cs</ProjectItem>
+    <ProjectItem TargetFileName="Entities\LocationMessage.cs" ReplaceParameters="true">Entities\LocationMessage.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

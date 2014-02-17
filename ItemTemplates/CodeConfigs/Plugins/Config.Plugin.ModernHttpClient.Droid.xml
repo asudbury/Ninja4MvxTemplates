@@ -1,0 +1,6 @@
+<CodeConfig>
+   <References>
+    <Reference>OkHttp.dll</Reference>
+    <Reference>ModernHttpClient.Android.dll</Reference>
+  </References> 
+</CodeConfig>

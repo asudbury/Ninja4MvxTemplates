@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>MvvmCross Web ViewModel</Name>
+    <Description>MvvmCross Web ViewModel</Description>
+    <Icon>MvvmCross.ico</Icon>
+    <TemplateID>dd706d71-cc72-433b-b145-2544f4830bfd</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+    <DefaultName>MvvmCross Web ViewModel.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="ViewModels\$fileinputname$.cs">ViewModels\WebViewModel.cs</ProjectItem>
+
+  </TemplateContent>
+</VSTemplate>

@@ -3,7 +3,7 @@
 //    Defines the AzureMobileService type.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace MvvmCross.AzureMobileService.Services
+namespace $safeprojectname$.Services
 {
     /// <summary>
     ///  Defines the AzureMobileService type.

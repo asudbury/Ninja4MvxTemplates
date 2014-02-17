@@ -59,8 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\DropBoxService.cs" />
-    <Compile Include="Services\IDropBoxService.cs" />
+    <None Include="Services\DropBoxService.cs" />
+    <None Include="Services\IDropBoxService.cs" />
   </ItemGroup>
   <ItemGroup>
     <VSTemplate Include="MvvmCross.DropBoxService.vstemplate" />

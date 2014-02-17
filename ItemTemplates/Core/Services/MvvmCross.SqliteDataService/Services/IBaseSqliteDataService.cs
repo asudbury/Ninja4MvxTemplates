@@ -3,7 +3,7 @@
 //    Defines the IBaseSqliteDataService type.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace MvvmCross.SqliteDataService.Services
+namespace $safeprojectname$.Services
 {
     using System.Collections.Generic;
 

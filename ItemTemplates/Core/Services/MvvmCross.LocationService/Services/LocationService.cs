@@ -3,7 +3,7 @@
 //    Defines the LocationService type.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace MvvmCross.LocationService.Services
+namespace $safeprojectname$.Services
 {
     using Cirrious.CrossCore;
     using Cirrious.MvvmCross.Plugins.Location;
@@ -16,11 +16,6 @@ namespace MvvmCross.LocationService.Services
     /// </summary>
     public class LocationService : ILocationService
     {
-        /// <summary>
-        /// The watcher
-        /// </summary>
-        private readonly IMvxGeoLocationWatcher watcher;
-
         /// <summary>
         /// The messenger
         /// </summary>
@@ -42,13 +37,12 @@ namespace MvvmCross.LocationService.Services
         /// <param name="watcher">The watcher.</param>
         /// <param name="messenger">The messenger.</param>
         public LocationService(
-            IMvxGeoLocationWatcher watcher, 
+            IMvxLocationWatcher watcher, 
             IMvxMessenger messenger)
         {
             this.messenger = messenger;
 
-            this.watcher = watcher;
-            this.watcher.Start(new MvxGeoLocationOptions(), this.OnSuccess, this.OnError);
+            watcher.Start(new MvxLocationOptions(), this.OnSuccess, this.OnError);
         }
 
         /// <summary>

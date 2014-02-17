@@ -7,7 +7,7 @@
     <TemplateID>4946cae0-493c-4609-af3e-d0c7dc833e08</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
     <DefaultName>DropBoxService.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
@@ -16,7 +16,7 @@
         <Assembly>System</Assembly>
       </Reference>
     </References>
-    <ProjectItem TargetFileName="Services\DropBoxService.cs">Services\DropBoxService.cs</ProjectItem>
-    <ProjectItem TargetFileName="Services\IDropBoxService.cs">Services\IDropBoxService.cs</ProjectItem>
+    <ProjectItem TargetFileName="Services\DropBoxService.cs" ReplaceParameters="true">Services\DropBoxService.cs</ProjectItem>
+    <ProjectItem TargetFileName="Services\IDropBoxService.cs" ReplaceParameters="true">Services\IDropBoxService.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

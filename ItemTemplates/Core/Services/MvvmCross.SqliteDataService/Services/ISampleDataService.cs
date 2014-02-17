@@ -3,7 +3,7 @@
 //    Defines the ISampleDataService type.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace MvvmCross.SqliteDataService.Services
+namespace $safeprojectname$.Services
 {
     using Entities;
 
