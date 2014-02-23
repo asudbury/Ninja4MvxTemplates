@@ -125,7 +125,7 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </None>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="Setup.cs" />
+    <Compile Include="Setup.cs" />
     <Compile Include="Views\BaseView.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -78,8 +78,8 @@
     <Compile Include="Bootstrap\MessengerPluginBootstrap.cs" />
     <Compile Include="LinkerPleaseInclude.cs" />
     <Compile Include="Main.cs" />
-    <None Include="AppDelegate.cs" />
-    <None Include="Setup.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="Setup.cs" />
     <Compile Include="Views\BaseView.cs" />
     <None Include="app.config" />
     <None Include="Info.plist" />
