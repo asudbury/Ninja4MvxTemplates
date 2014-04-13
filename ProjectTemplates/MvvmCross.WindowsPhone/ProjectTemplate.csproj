@@ -116,9 +116,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.xaml.cs">
+    
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
-    </None>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Bootstrap\MessengerPluginBootstrap.cs" />
     <!--<Compile Include="Infrastructure\FastApplicationSwitchingService.cs" />-->
     <None Include="MainPage.xaml.cs">
@@ -129,10 +135,6 @@
     <Compile Include="Views\BaseView.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </None>
     <None Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>MvvmCross.WindowsPhone.View.Web</Name>
+    <Description>MvvmCross.WindowsPhone.View.Web</Description>
+    <Icon>MvvmCross.ico</Icon>
+    <TemplateID>a91bda7a-dcb1-484f-ac06-64d72be87ca2</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+    <DefaultName>MvvmCross.WindowsPhone.View.Web.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Views\$fileinputname$.xaml">Views\WebView.xaml</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Views\$fileinputname$.xaml.cs">Views\WebView.xaml.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

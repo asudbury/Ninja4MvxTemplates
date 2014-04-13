@@ -59,6 +59,9 @@ namespace $safeprojectname$
 
                 setup.Initialize();
             }
+            
+            //// TODO : doesnt seem to work - adrian :-(
+            ////FastApplicationSwitchingService.Initialize();
         }
 
         // Code to execute when the application is launching (eg, from Start)

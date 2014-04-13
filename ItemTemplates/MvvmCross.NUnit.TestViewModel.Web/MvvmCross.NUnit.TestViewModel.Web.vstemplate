@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>MvvmCross.NUnit.TestViewModel.Web</Name>
+    <Description>MvvmCross.NUnit.TestViewModel.Web</Description>
+    <Icon>MvvmCross.ico</Icon>
+    <TemplateID>cc23e1d2-6706-426e-a5c9-8d79177860c7</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+    <DefaultName>MvvmCross.NUnit.TestViewModel.Web.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem TargetFileName="ViewModels\$fileinputname$.cs" ReplaceParameters="true">ViewModels\TestWebViewModel.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

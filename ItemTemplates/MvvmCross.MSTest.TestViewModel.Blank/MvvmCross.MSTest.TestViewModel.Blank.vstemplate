@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>MvvmCross.MSTest.TestViewModel.Blank</Name>
+    <Description>MvvmCross.MSTest.TestViewModel.Blank</Description>
+    <Icon>MvvmCross.ico</Icon>
+    <TemplateID>f82c0c0b-a2e6-4a24-8c50-4f5c7a6160f5</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+    <DefaultName>MvvmCross.MSTest.TestViewModel.Blank.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem TargetFileName="ViewModels\$fileinputname$.cs" ReplaceParameters="true">ViewModels\TestBlankViewModel.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

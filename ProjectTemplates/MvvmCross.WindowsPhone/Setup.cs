@@ -29,11 +29,7 @@ namespace $safeprojectname$
         /// <returns>An instance of IMvxApplication.</returns>
         protected override IMvxApplication CreateApp()
         {
-            var x = new Core.App();
-
-            FastApplicationSwitchingService.Initialize();
-
-            return x;
+            return new Core.App();
         }
     }
 }

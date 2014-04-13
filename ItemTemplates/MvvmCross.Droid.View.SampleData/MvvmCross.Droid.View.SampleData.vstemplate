@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>MvvmCross.Droid.View.SampleData</Name>
+    <Description>MvvmCross.Droid.View.SampleData</Description>
+    <Icon>MvvmCross.ico</Icon>
+    <TemplateID>a46d3cb7-cd28-4b97-a137-8da4a259985d</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+    <DefaultName>MvvmCross.Droid.View.SampleData.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Views\$fileinputname$.cs">Views\SampleDataView.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Resources\Layout\$fileinputname$.axml">Resources\Layout\SampleDataView.axml</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

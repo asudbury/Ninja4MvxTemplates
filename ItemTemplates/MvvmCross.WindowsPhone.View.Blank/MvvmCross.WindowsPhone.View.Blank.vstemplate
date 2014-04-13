@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>MvvmCross.WindowsPhone.View.Blank</Name>
+    <Description>MvvmCross.WindowsPhone.View.Blank</Description>
+    <Icon>MvvmCross.ico</Icon>
+    <TemplateID>8d9db272-afa8-4424-b0b3-b63f6d57314d</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+    <DefaultName>MvvmCross.WindowsPhone.View.Blank.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Views\$fileinputname$.xaml">Views\BlankView.xaml</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Views\$fileinputname$.xaml.cs">Views\BlankView.xaml.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

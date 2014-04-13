@@ -5,10 +5,14 @@
 // --------------------------------------------------------------------------------------------------------------------
 namespace $safeprojectname$.Infrastructure
 {
+    using System.Windows.Navigation;
+
+    using Microsoft.Phone.Shell;
+
     /// <summary>
     /// Defines the FastApplicationSwitchingService type.
     /// </summary>
-    private class FastApplicationSwitchingService
+    public class FastApplicationSwitchingService
     {
         /// <summary>
         /// Is Preserved backing field.
@@ -30,7 +34,8 @@ namespace $safeprojectname$.Infrastructure
         /// </summary>
         private FastApplicationSwitchingService()
         {
-            ////http://msdn.microsoft.com/en-us/library/windowsphone/develop/jj735579(v=vs.105).aspx
+            //// http://www.codecoding.com/fast-app-switching-and-mvvmcross-how-to-make-it-work/
+            //// http://msdn.microsoft.com/en-us/library/windowsphone/develop/jj735579(v=vs.105).aspx
             App.RootFrame.Navigating += this.RootFrameNavigating;
             App.RootFrame.Navigated += this.RootFrameNavigated;
             PhoneApplicationService.Current.Activated += this.CurrentActivated;

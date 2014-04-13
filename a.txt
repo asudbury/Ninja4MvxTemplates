@@ -1,0 +1,102 @@
+-----------------------------
+Project templates - Core Libraries 
+-----------------------------
+b:\Scorchio\Projects\c#\Ninja\MvvmCross-Binaries-3.1\VS2012\bin\Release\Mvx\Portable\Cirrious.CrossCore.dll
+        0 file(s) copied.
+-----------------------------
+Project templates - Core NUnit Test Libraries 
+-----------------------------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+-----------------------------
+Project templates - Core MsTest Test Libraries 
+-----------------------------
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+-----------------------------
+Project templates - Droid Libraries
+-----------------------------
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+b:\Scorchio\Projects\c#\Ninja\MvvmCross-Binaries-3.1\VS2012\bin\Release\Mvx\Droid\Cirrious.MvvmCross.Plugins.Accelerometer.Droid.dll
+        0 file(s) copied.
+-----------------------------
+Project templates - iOS Libraries
+-----------------------------
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+b:\Scorchio\Projects\c#\Ninja\MvvmCross-Binaries-3.1\VS2012\bin\Release\Mvx\Touch\Cirrious.MvvmCross.Plugins.Accelerometer.Touch.dll
+        0 file(s) copied.
+-----------------------------
+Project templates - Wpf Libraries
+-----------------------------
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+b:\Scorchio\Projects\c#\Ninja\MvvmCross-Binaries-3.1\VS2012\bin\Release\Mvx\Wpf\Cirrious.MvvmCross.Plugins.Accelerometer.Wpf.dll
+        0 file(s) copied.
+-----------------------------
+Project templates - WindowsPhone Libraries 
+-----------------------------
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+b:\Scorchio\Projects\c#\Ninja\MvvmCross-Binaries-3.1\VS2012\bin\Release\Mvx\WindowsPhone\Cirrious.MvvmCross.Plugins.Accelerometer.WindowsPhone.dll
+        0 file(s) copied.
+-----------------------------
+Project templates - WindowsStore Libraries
+-----------------------------
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+        0 file(s) copied.
+b:\Scorchio\Projects\c#\Ninja\MvvmCross-Binaries-3.1\VS2012\bin\Release\Mvx\WindowsStore\Cirrious.MvvmCross.Plugins.Accelerometer.WindowsStore.dll
+        0 file(s) copied.
+-----------------------------
+Zipper - Amend Project Templates
+-----------------------------
+-----------------------------
+Zipper - Amend Core Template
+-----------------------------
+-----------------------------
+Zipper - Amend Core MsTests Tests Template
+-----------------------------
+-----------------------------
+Zipper - Amend Core Nunit Tests Template
+-----------------------------
+-----------------------------
+Zipper - Amend Droid Template
+-----------------------------
+-----------------------------
+Zipper - Amend iOS Template
+-----------------------------
+-----------------------------
+Zipper - Amend WindowsPhone Template
+-----------------------------
+-----------------------------
+Zipper - Amend WindowsStore Template
+-----------------------------
+-----------------------------
+Zipper - Amend Wpf Template
+-----------------------------
