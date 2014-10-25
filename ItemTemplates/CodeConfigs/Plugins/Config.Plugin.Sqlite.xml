@@ -1,4 +1,12 @@
 <CodeConfig>
   <NugetPackage>MvvmCross.Community.Plugin.Sqlite</NugetPackage>
+  <UsingStatement>Cirrious.MvvmCross.Plugins.Sqlite</UsingStatement>
   <BootstrapFileNameOverride>CommunitySqlitePluginBootstrap.cs</BootstrapFileNameOverride>
+  <Platforms>
+    <Platform>iOS</Platform>
+    <Platform>Droid</Platform>
+    <Platform>WindowsPhone</Platform>
+    <Platform>WindowsStore</Platform>
+    <Platform>Wpf</Platform>
+  </Platforms>
 </CodeConfig>

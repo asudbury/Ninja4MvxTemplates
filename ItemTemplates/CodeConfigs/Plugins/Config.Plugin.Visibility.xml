@@ -1,3 +1,11 @@
 <CodeConfig>
-  <NugetPackage>MvvmCross.HotTuna.Plugin.Visibility</NugetPackage>
+    <NugetPackage>MvvmCross.HotTuna.Plugin.Visibility</NugetPackage>
+    <UsingStatement>Cirrious.MvvmCross.Plugins.Visibility</UsingStatement>
+    <Platforms>
+      <Platform>iOS</Platform>
+      <Platform>Droid</Platform>
+      <Platform>WindowsPhone</Platform>
+      <Platform>WindowsStore</Platform>
+      <Platform>Wpf</Platform>
+  </Platforms>
 </CodeConfig>

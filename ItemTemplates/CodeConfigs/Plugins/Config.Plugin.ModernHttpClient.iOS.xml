@@ -1,6 +1,0 @@
-<CodeConfig>
-   <References>
-    <Reference>AFNetworking.dll</Reference>
-    <Reference>ModernHttpClient.iOS.dll</Reference>
-  </References> 
-</CodeConfig>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>MvvmCross.WindowsPhone</Name>
+    <Description>MvvmCross.WindowsPhone</Description>
+    <Icon>MvvmCross.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>5a397541-d752-4fbb-b3d1-1a813d8dacde</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>MvvmCross.WindowsPhone</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem TargetFileName="AssemblyInfo.cs" ReplaceParameters="true">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem TargetFileName="AppManifest.xml" ReplaceParameters="true">AppManifest.xml</ProjectItem>
+        <ProjectItem TargetFileName="WMAppManifest.xml" ReplaceParameters="true">WMAppManifest.xml</ProjectItem>
+      </Folder>
+      
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Setup.cs">Setup.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml">MainPage.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml.cs">MainPage.xaml.cs</ProjectItem>
+
+      <ProjectItem TargetFileName="ApplicationIcon.png">ApplicationIcon.png</ProjectItem>
+      <ProjectItem TargetFileName="Background.png">Background.png</ProjectItem>
+      <ProjectItem TargetFileName="SplashScreenImage.jpg">SplashScreenImage.jpg</ProjectItem>
+
+
+      <!--<Folder Name="Infrastructure" TargetFolderName="Infrastructure">
+        <ProjectItem ReplaceParameters="true" TargetFileName="FastApplicationSwitchingService.cs">FastApplicationSwitchingService.cs</ProjectItem>
+      </Folder>-->
+      
+      <Folder Name="Views" TargetFolderName="Views">
+        <ProjectItem ReplaceParameters="true" TargetFileName="BaseView.cs">BaseView.cs</ProjectItem>
+      </Folder>
+     
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>NinjaCoder.MvvmCross.TemplateWizards, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0cfd3f30dfd5b768, Custom=null</Assembly>
+    <FullClassName>NinjaCoder.MvvmCross.TemplateWizards.Projects.ProjectsWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

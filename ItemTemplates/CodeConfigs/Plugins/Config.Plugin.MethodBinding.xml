@@ -1,3 +1,11 @@
 <CodeConfig>
 	<NugetPackage>MvvmCross.HotTuna.Plugin.MethodBinding</NugetPackage>
+  <UsingStatement>Cirrious.MvvmCross.Plugins.MethodBinding</UsingStatement>
+  <Platforms>
+    <Platform>iOS</Platform>
+    <Platform>Droid</Platform>
+    <Platform>WindowsPhone</Platform>
+    <Platform>WindowsStore</Platform>
+    <Platform>Wpf</Platform>
+  </Platforms>
 </CodeConfig>

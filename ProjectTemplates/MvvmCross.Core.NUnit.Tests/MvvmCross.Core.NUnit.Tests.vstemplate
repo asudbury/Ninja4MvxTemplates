@@ -15,15 +15,6 @@
   <TemplateContent>
     <Project TargetFileName="ProjectTemplate.csproj" File="ProjectTemplate.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="BaseTest.cs">BaseTest.cs</ProjectItem>
-      <Folder Name="Lib" TargetFolderName="Lib">
-        <ProjectItem ReplaceParameters="false" TargetFileName="Cirrious.CrossCore.dll">Cirrious.CrossCore.dll</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Cirrious.MvvmCross.dll">Cirrious.MvvmCross.dll</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Cirrious.MvvmCross.Test.Core.dll">Cirrious.MvvmCross.Test.Core.dll</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Moq.dll">Moq.dll</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="nunit.framework.dll">nunit.framework.dll</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Rhino.Mocks.dll">Rhino.Mocks.dll</ProjectItem> 
-        <ProjectItem ReplaceParameters="false" TargetFileName="NSubstitute.dll">NSubstitute.dll</ProjectItem> 
-      </Folder>
       <Folder Name="Mocks" TargetFolderName="Mocks">
         <ProjectItem ReplaceParameters="true" TargetFileName="MockDispatcher.cs">MockDispatcher.cs</ProjectItem>
       </Folder>

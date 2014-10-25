@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("MvvmCross.DropBoxService")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Eon Uk Limited")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("MvvmCross.DropBoxService")]
-[assembly: AssemblyCopyright("Copyright © Eon Uk Limited 2013")]
+[assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

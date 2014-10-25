@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("MvvmCross.Droid.View.SampleData")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Eon Uk Limited")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("MvvmCross.Droid.View.SampleData")]
-[assembly: AssemblyCopyright("Copyright © Eon Uk Limited 2013")]
+[assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

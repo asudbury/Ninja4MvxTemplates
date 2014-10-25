@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("MvvmCross.WindowsStore.View.Web")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Eon Uk Limited")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("MvvmCross.WindowsStore.View.Web")]
-[assembly: AssemblyCopyright("Copyright © Eon Uk Limited 2013")]
+[assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
