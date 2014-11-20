@@ -1,27 +1,21 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
 // <summary>
-//    Defines the MainPage.xaml type.
+//    Defines the $fileinputname$.xaml type.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace $safeprojectname$
+namespace $rootnamespace$.Views
 {
-    using Xamarin.Forms;
-
     /// <summary>
-    ///    Defines the MainPage.xaml type.
+    ///    Defines the $fileinputname$.xaml type.
     /// </summary>
-    public partial class MainPage
+    public partial class $fileinputname$
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="MainPage"/> class.
+        /// Initializes a new instance of the <see cref="$fileinputname$"/> class.
         /// </summary>
-        public MainPage()
+        public $fileinputname$() 
         {
             this.InitializeComponent();
-
-            Forms.Init();
-
-            this.Content = FormsHelper.GetMainPage().ConvertPageToUIElement(this);
         }
     }
 }

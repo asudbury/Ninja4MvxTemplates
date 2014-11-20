@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>MvvmCross.Core</Name>
-    <Description>MvvmCross.Core</Description>
-    <Icon>MvvmCross.ico</Icon>
+    <Name>Xamarin.Forms</Name>
+    <Description>Xamarin.Forms</Description>
+    <Icon>xamarin.png</Icon>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
-    <TemplateID>ca7df75a-0992-4b9c-8617-736dcfb02e3d</TemplateID>
+    <TemplateID>07889355-147b-46b5-8282-c84cd1e77df9</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>MvvmCross.Core</DefaultName>
+    <DefaultName>Xamarin.Forms</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
   <TemplateContent>
-    <Project File="MvvmCrossProjectTemplate.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" TargetFileName="App.cs">App.cs</ProjectItem>
-     
-      <Folder Name="ViewModels" TargetFolderName="ViewModels">
-        <ProjectItem ReplaceParameters="true" TargetFileName="BaseViewModel.cs">BaseViewModel.cs</ProjectItem>
-      </Folder>
-      
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+
+      <ProjectItem ReplaceParameters="true" TargetFileName="Views\MainView.xaml">Views\MainView.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Views\MainView.xaml.cs">Views\MainView.xaml.cs</ProjectItem>
+
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormsHelper.cs">FormsHelper.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="XamarinFormsSchema.xsd">XamarinFormsSchema.xsd</ProjectItem>
     </Project>
   </TemplateContent>
   <WizardExtension>

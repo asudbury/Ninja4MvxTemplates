@@ -63,9 +63,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-    </None>
     <None Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </None>
@@ -75,26 +72,18 @@
     <None Include="Views\BaseView.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ProjectTemplate.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <VSTemplate Include="MvvmCross.WindowsPhone.vstemplate" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ApplicationIcon.png" />
     <Content Include="Background.png" />
-    <Content Include="mvvmcross.ico" />
+    <Content Include="SplashScreenImage.jpg" />
     <None Include="Properties\AppManifest.xml" />
     <None Include="Properties\WMAppManifest.xml" />
-    <Content Include="SplashScreenImage.jpg" />
+    <Content Include="mvvmcross.ico" />
+    <Content Include="MvvmCrossProjectTemplate.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </None>
     <None Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

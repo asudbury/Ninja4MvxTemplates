@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Xamarin.Droid</Name>
+    <Description>Xamarin.Droid</Description>
+    <Icon>Xamarin.png</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>441046ae-3b51-4b6b-be39-4f1cde33f9ba</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Xamarim.Droid</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplateXamarin.csproj" ReplaceParameters="true">
+
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem TargetFileName="AssemblyInfo.cs" ReplaceParameters="true">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem TargetFileName="AndroidManifest.xml">AndroidManifest.xml</ProjectItem>
+      </Folder>
+
+      <Folder Name="Resources" TargetFolderName="Resources">
+
+        <ProjectItem  TargetFileName="AboutResources.txt">AboutResources.txt</ProjectItem>
+        <ProjectItem  TargetFileName="Resource.Designer.cs" ReplaceParameters="true">Resource.Designer.cs</ProjectItem>
+
+        <Folder Name="Values" TargetFolderName="Values">
+          <ProjectItem  TargetFileName="Strings.xml">Strings.xml</ProjectItem>
+        </Folder>
+
+        <Folder Name="Drawable" TargetFolderName="Drawable">
+          <ProjectItem  TargetFileName="Icon.png">Icon.png</ProjectItem>
+        </Folder>
+        
+      </Folder>
+
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>NinjaCoder.MvvmCross.TemplateWizards, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0cfd3f30dfd5b768, Custom=null</Assembly>
+    <FullClassName>NinjaCoder.MvvmCross.TemplateWizards.Projects.ProjectsWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

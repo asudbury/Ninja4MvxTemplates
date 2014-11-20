@@ -1,25 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>MvvmCross.Core</Name>
-    <Description>MvvmCross.Core</Description>
+    <Name>MvvmCross.Core.MSTest.Tests</Name>
+    <Description>MvvmCross.Core.MSTest.Tests</Description>
     <Icon>MvvmCross.ico</Icon>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
-    <TemplateID>ca7df75a-0992-4b9c-8617-736dcfb02e3d</TemplateID>
+    <TemplateID>32559ab1-f14c-471e-90c0-a23ecfed3814</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>MvvmCross.Core</DefaultName>
+    <DefaultName>MvvmCross.Core.MSTest.Tests</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
   <TemplateContent>
-    <Project File="MvvmCrossProjectTemplate.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" TargetFileName="App.cs">App.cs</ProjectItem>
-     
-      <Folder Name="ViewModels" TargetFolderName="ViewModels">
-        <ProjectItem ReplaceParameters="true" TargetFileName="BaseViewModel.cs">BaseViewModel.cs</ProjectItem>
+    <Project TargetFileName="MvvmCross.ProjectTemplate.csproj" File="MvvmCross.ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="BaseTest.cs">BaseTest.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       </Folder>
-      
     </Project>
   </TemplateContent>
   <WizardExtension>

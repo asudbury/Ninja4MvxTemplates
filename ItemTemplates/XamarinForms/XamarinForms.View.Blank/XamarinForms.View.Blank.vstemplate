@@ -3,15 +3,18 @@
   <TemplateData>
     <Name>XamarinForms.View.Blank</Name>
     <Description>XamarinForms.View.Blank</Description>
-    <Icon>MvvmCross.ico</Icon>
     <TemplateID>8d9db272-afa8-4424-b0b3-b63f6d57314d</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
-    <DefaultName>XamarinForms.View.Blank.cs</DefaultName>
+    <DefaultName>View.Blank.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
-    <ProjectItem ReplaceParameters="true" TargetFileName="Views\$fileinputname$.xaml">Views\BlankView.xaml</ProjectItem>
-    <ProjectItem ReplaceParameters="true" TargetFileName="Views\$fileinputname$.xaml.cs">Views\BlankView.xaml.cs</ProjectItem>
+    <ProjectItem ItemType="EmbeddedResource" ReplaceParameters="true" TargetFileName="Views\$fileinputname$.xaml">Views\BlankView.xaml</ProjectItem>
+    <ProjectItem SubType="Code" ReplaceParameters="true" TargetFileName="Views\$fileinputname$.xaml.cs">Views\BlankView.xaml.cs</ProjectItem>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>NinjaCoder.MvvmCross.TemplateWizards, Version=1.0.0.1, Culture=neutral, PublicKeyToken=0cfd3f30dfd5b768, Custom=null</Assembly>
+    <FullClassName>NinjaCoder.MvvmCross.TemplateWizards.ViewModelsAndViews.XamarinFormsViewsWizard</FullClassName>
+  </WizardExtension>
 </VSTemplate>

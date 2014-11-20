@@ -15,11 +15,11 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{82b43b9b-a64c-4715-b499-d71e9ca2bd60};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{2DF38AC3-42FC-4F4E-A2AC-494DAF77B5E9}</ProjectGuid>
+    <ProjectGuid>{93407B39-B697-4F5D-8679-4C36842E1D5B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MvvmCross.Core</RootNamespace>
-    <AssemblyName>MvvmCross.Core</AssemblyName>
+    <RootNamespace>MvvmCross.Core.NUnit.Tests</RootNamespace>
+    <AssemblyName>MvvmCross.Core.NUnit.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
@@ -41,7 +41,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -50,7 +49,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualStudio.CoreUtility">
@@ -59,23 +57,26 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.cs" />
-    <None Include="Entities\ErrorMessage.cs" />
-    <None Include="Entities\Message.cs" />
-    <Compile Include="Infrastructure\CompilerService.cs" />
+    <None Include="BaseTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="ViewModels\BaseViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="MvvmCross.Core.vstemplate" />
+    <None Include="AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <VSTemplate Include="MvvmCross.Core.NUnit.Tests.vstemplate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MvvmCross.Core.NUnit.ProjectTemplate.csproj" />
     <Content Include="mvvmcross.ico" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

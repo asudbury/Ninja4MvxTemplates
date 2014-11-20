@@ -15,11 +15,11 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{82b43b9b-a64c-4715-b499-d71e9ca2bd60};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{2DF38AC3-42FC-4F4E-A2AC-494DAF77B5E9}</ProjectGuid>
+    <ProjectGuid>{50325189-A3A1-4395-9BBE-110EFD376898}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MvvmCross.Core</RootNamespace>
-    <AssemblyName>MvvmCross.Core</AssemblyName>
+    <RootNamespace>Xamarin.Forms.Core</RootNamespace>
+    <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
@@ -41,7 +41,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -50,7 +49,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualStudio.CoreUtility">
@@ -62,18 +60,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.cs" />
-    <None Include="Entities\ErrorMessage.cs" />
-    <None Include="Entities\Message.cs" />
-    <Compile Include="Infrastructure\CompilerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="ViewModels\BaseViewModel.cs" />
+    <Content Include="xamarin.png" />
+    <Content Include="XamarinProjectTemplate.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="MvvmCross.Core.vstemplate" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="mvvmcross.ico" />
+    <VSTemplate Include="Xamarin.Core.vstemplate" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
