@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
@@ -15,11 +15,11 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{82b43b9b-a64c-4715-b499-d71e9ca2bd60};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{25085F8D-FB34-4739-8B76-C1B765AF8914}</ProjectGuid>
+    <ProjectGuid>{192CEA69-A0E2-42A0-8DF7-78841487DFD6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Xamarin.iOS</RootNamespace>
-    <AssemblyName>Xamarin.iOS</AssemblyName>
+    <RootNamespace>MvvmCross.WindowsStore</RootNamespace>
+    <AssemblyName>MvvmCross.WindowsStore</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
@@ -51,31 +51,65 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Cirrious.CrossCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e16445fd9b451819, processorArchitecture=MSIL" />
+    <Reference Include="Cirrious.CrossCore.WindowsStore, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Cirrious.MvvmCross, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e16445fd9b451819, processorArchitecture=MSIL" />
+    <Reference Include="Cirrious.MvvmCross.Plugins.Messenger, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Cirrious.MvvmCross.WindowsStore, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.VisualStudio.CoreUtility">
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Lib\System.Net.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Windows, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Lib\System.Windows.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Main.cs" />
-    <None Include="Properties\AssemblyInfo.cs" />
+    <None Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </None>
+    <None Include="Common\BindableBase.cs" />
+    <None Include="Common\BooleanNegationConverter.cs" />
+    <None Include="Common\BooleanToVisibilityConverter.cs" />
+    <None Include="Common\LayoutAwarePage.cs" />
+    <None Include="Common\RichTextColumns.cs" />
+    <None Include="Common\SuspensionManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Setup.cs" />
+    <None Include="Views\BaseView.cs" />
+    <None Include="WindowsStore_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ProjectTemplateXamarin.csproj" />
-    <VSTemplate Include="Xamarin.iOS.vstemplate" />
-    <Content Include="xamarin.png" />
-    <None Include="Info.plist" />
+    <None Include="AssemblyInfo.cs" />
+    <None Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectTemplate.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <VSTemplate Include="MvvmCross.WindowsStore.vstemplate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\SmallLogo.png" />
+    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Common\ReadMe.txt" />
+    <Content Include="mvvmcross.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Common\StandardStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />

@@ -11,6 +11,7 @@
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>MvvmCross.WindowsStore</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
+    <Hidden>true</Hidden>
   </TemplateData>
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
@@ -48,8 +49,4 @@
 
     </Project>
   </TemplateContent>
-  <WizardExtension>
-    <Assembly>NinjaCoder.MvvmCross.TemplateWizards, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0cfd3f30dfd5b768, Custom=null</Assembly>
-    <FullClassName>NinjaCoder.MvvmCross.TemplateWizards.Projects.ProjectsWizard</FullClassName>
-  </WizardExtension>
 </VSTemplate>

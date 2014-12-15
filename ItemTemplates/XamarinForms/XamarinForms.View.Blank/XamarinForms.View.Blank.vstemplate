@@ -8,6 +8,7 @@
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
     <DefaultName>View.Blank.cs</DefaultName>
+    <Hidden>true</Hidden>
   </TemplateData>
   <TemplateContent>
     <ProjectItem ItemType="EmbeddedResource" ReplaceParameters="true" TargetFileName="Views\$fileinputname$.xaml">Views\BlankView.xaml</ProjectItem>

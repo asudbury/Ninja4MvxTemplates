@@ -1,4 +1,4 @@
-﻿ <?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
     <Name>MvvmCross.Wpf</Name>
@@ -11,6 +11,7 @@
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>MvvmCross.Wpf</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
+    <Hidden>true</Hidden>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="ProjectTemplate.csproj" File="ProjectTemplate.csproj" ReplaceParameters="true">
@@ -28,8 +29,4 @@
       </Folder>
     </Project>
   </TemplateContent>
-  <WizardExtension>
-    <Assembly>NinjaCoder.MvvmCross.TemplateWizards, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0cfd3f30dfd5b768, Custom=null</Assembly>
-    <FullClassName>NinjaCoder.MvvmCross.TemplateWizards.Projects.ProjectsWizard</FullClassName>
-  </WizardExtension>
 </VSTemplate>

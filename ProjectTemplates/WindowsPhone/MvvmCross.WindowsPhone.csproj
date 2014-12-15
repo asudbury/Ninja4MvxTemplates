@@ -67,6 +67,9 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </None>
     <None Include="Infrastructure\FastApplicationSwitchingService.cs" />
+    <None Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </None>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="Setup.cs" />
     <None Include="Views\BaseView.cs" />
@@ -87,6 +90,12 @@
     <None Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </None>

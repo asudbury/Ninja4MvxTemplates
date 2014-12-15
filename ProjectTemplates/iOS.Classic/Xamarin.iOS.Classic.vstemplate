@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Xamarin.iOS.Classic</Name>
+    <Description>Xamarin.iOS.Classic</Description>
+    <Icon>xamarin.png</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>620cc325-7ef9-468b-981e-7ca6e0cf3b22</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Xamarin.iOS.Classic</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <Hidden>true</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" TargetFileName="ProjectTemplate.csproj" ReplaceParameters="true">
+            <ProjectItem ReplaceParameters="true" TargetFileName="Info.plist">Info.plist</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
