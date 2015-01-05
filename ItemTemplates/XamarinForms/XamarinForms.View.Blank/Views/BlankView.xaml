@@ -6,5 +6,6 @@
              Title="$fileinputname$ Page">
   <!-- BindingContextPlaceHolder -->
   <AbsoluteLayout>
+        <!-- BindingPlaceHolder -->
   </AbsoluteLayout>
 </ContentPage>

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NinajCoder.Wpf")]
+[assembly: AssemblyTitle("MvvmCross.ViewModel.Blank")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NinjaCoder.Wpf")]
+[assembly: AssemblyProduct("MvvmCross.ViewModel.Blank")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("112e93a8-e20c-4926-8457-08003f24ad23")]
+[assembly: Guid("f99442bf-ea61-4634-bb7a-90d15268dd23")]
 
 // Version information for an assembly consists of the following four values:
 //
