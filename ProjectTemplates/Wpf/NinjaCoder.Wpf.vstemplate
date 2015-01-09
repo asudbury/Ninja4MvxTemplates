@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>MvvmCross.Wpf</Name>
-    <Description>MvvmCross.Wpf</Description>
-    <Icon>MvvmCross.ico</Icon>
+    <Name>NinajCoder.Wpf</Name>
+    <Description>NinjaCoder.Wpf</Description>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
     <TemplateID>e06c5602-682c-42eb-853f-4956db321874</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>MvvmCross.Wpf</DefaultName>
+    <DefaultName>NinjaCoder.Wpf</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <Hidden>true</Hidden>
   </TemplateData>
@@ -22,10 +21,6 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml.cs">MainWindow.xaml.cs</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
-      </Folder>
-      <ProjectItem ReplaceParameters="true" TargetFileName="Setup.cs">Setup.cs</ProjectItem>
-      <Folder Name="Views" TargetFolderName="Views">
-        <ProjectItem ReplaceParameters="true" TargetFileName="BaseView.cs">BaseView.cs</ProjectItem>
       </Folder>
     </Project>
   </TemplateContent>
