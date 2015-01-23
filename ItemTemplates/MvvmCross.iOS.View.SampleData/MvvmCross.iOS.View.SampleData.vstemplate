@@ -13,8 +13,4 @@
   <TemplateContent>
     <ProjectItem ReplaceParameters="true" TargetFileName="Views\$fileinputname$.cs">Views\SampleDataView.cs</ProjectItem>
   </TemplateContent>
-  <WizardExtension>
-    <Assembly>NinjaCoder.MvvmCross.TemplateWizards, Version=1.0.0.1, Culture=neutral, PublicKeyToken=0cfd3f30dfd5b768, Custom=null</Assembly>
-    <FullClassName>NinjaCoder.MvvmCross.TemplateWizards.ViewModelsAndViews.MvvmCrossiOSViewsWizard</FullClassName>
-  </WizardExtension>
 </VSTemplate>

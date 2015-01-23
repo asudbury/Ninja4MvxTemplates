@@ -1,20 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Xamarin.Droid</Name>
-    <Description>Xamarin.Droid</Description>
-    <Icon>Xamarin.png</Icon>
-    <ProjectType>CSharp</ProjectType>
+    <Name>NinjaCoder.Droid</Name>
+    <Description>NinjaCoder.Droid</Description>
+     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
     <TemplateID>441046ae-3b51-4b6b-be39-4f1cde33f9ba</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Xamarim.Droid</DefaultName>
+    <DefaultName>NinjaCoder.Droid</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <Hidden>true</Hidden>
   </TemplateData>
   <TemplateContent>
-    <Project File="ProjectTemplateXamarin.csproj" ReplaceParameters="true">
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
 
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem TargetFileName="AssemblyInfo.cs" ReplaceParameters="true">AssemblyInfo.cs</ProjectItem>

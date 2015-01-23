@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Xamarin.iOS.Unified</Name>
-    <Description>Xamarin.iOS.Unified</Description>
-    <Icon>xamarin.png</Icon>
+    <Name>NinjaCoder.iOS</Name>
+    <Description>NinjaCoder.iOS</Description>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
     <TemplateID>620cc325-7ef9-468b-981e-7ca6e0cf3b22</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Xamarin.iOS.Unified</DefaultName>
+    <DefaultName>NinjaCoder.iOS</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <Hidden>true</Hidden>
   </TemplateData>

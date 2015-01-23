@@ -71,7 +71,6 @@
   <ItemGroup>
     <Content Include="ApplicationIcon.png" />
     <Content Include="Background.png" />
-    <Content Include="xamarin.ico" />
     <None Include="Properties\AppManifest.xml" />
     <None Include="Properties\WMAppManifest.xml" />
     <Content Include="Xamarin.WindowsPhone.vstemplate" />

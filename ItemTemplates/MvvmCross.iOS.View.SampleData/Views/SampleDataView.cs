@@ -10,8 +10,8 @@ namespace $rootnamespace$.Views
     using Cirrious.MvvmCross.Binding.BindingContext;
 
     using Core.ViewModels;
-    using MonoTouch.Foundation;
-    using MonoTouch.UIKit;
+    using Foundation;
+    using UIKit;
 
     /// <summary>
     /// Defines the $fileinputname$ type.
