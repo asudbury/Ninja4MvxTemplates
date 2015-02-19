@@ -1,25 +1,27 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
 // <summary>
-//    Defines the FormsHelper type.
+//    Defines the MainPage.xaml type.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 namespace $safeprojectname$
 {
     using Xamarin.Forms;
-    using Xamarin.Forms.Views;
 
     /// <summary>
-    /// Defines the FormsHelper type.
+    ///    Defines the MainPage.xaml type.
     /// </summary>
-    public static class FormsHelper
+    public partial class MainPage
     {
         /// <summary>
-        /// Gets the main page.
+        /// Initializes a new instance of the <see cref="MainPage"/> class.
         /// </summary>
-        /// <returns></returns>
-        public static Page GetMainPage()
+        public MainPage()
         {
-            return new MainView();
+            this.InitializeComponent();
+
+            Forms.Init();
+
+            this.Content = FormsHelper.GetMainPage().ConvertPageToUIElement(this);
         }
     }
 }

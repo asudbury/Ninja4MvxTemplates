@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>MvvmCross.Core.MSTest.Tests</Name>
-    <Description>MvvmCross.Core.MSTest.Tests</Description>
-    <Icon>MvvmCross.ico</Icon>
+    <Name>NinjaCoder.MSTest</Name>
+    <Description>NinjaCoder.MSTest</Description>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
@@ -11,10 +10,10 @@
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>MSTest.Tests</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
-    <Hidden>true</Hidden>
+    <Hidden>false</Hidden>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="MSTests.Tests.ProjectTemplate.csproj" File="MSTests.Tests.ProjectTemplate.csproj" ReplaceParameters="true">
+    <Project TargetFileName="ProjectTemplate.csproj" File="ProjectTemplate.csproj" ReplaceParameters="true">
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       </Folder>

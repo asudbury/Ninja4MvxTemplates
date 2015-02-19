@@ -10,7 +10,7 @@
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>NinjaCoder.iOS</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
-    <Hidden>true</Hidden>
+    <Hidden>false</Hidden>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="ProjectTemplate.csproj" File="ProjectTemplate.csproj" ReplaceParameters="true">

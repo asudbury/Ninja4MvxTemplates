@@ -1,26 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Xamarin.Forms</Name>
-    <Description>Xamarin.Forms</Description>
-    <Icon>xamarin.png</Icon>
+    <Name>NinjaCoder.Xamarin.Forms</Name>
+    <Description>NinjaCoder.Xamarin.Forms</Description>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
     <TemplateID>07889355-147b-46b5-8282-c84cd1e77df9</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Xamarin.Forms</DefaultName>
+    <DefaultName>NinjaCoder.Xamarin.Forms</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
-    <Hidden>true</Hidden>
+    <Hidden>false</Hidden>
   </TemplateData>
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
 
-      <ProjectItem ReplaceParameters="true" TargetFileName="Views\MainView.xaml">Views\MainView.xaml</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="Views\MainView.xaml.cs">Views\MainView.xaml.cs</ProjectItem>
-
-      <ProjectItem ReplaceParameters="true" TargetFileName="FormsHelper.cs">FormsHelper.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="XamarinFormsSchema.xsd">XamarinFormsSchema.xsd</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem TargetFileName="AssemblyInfo.cs" ReplaceParameters="true">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      
     </Project>
   </TemplateContent>
 </VSTemplate>
