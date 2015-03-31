@@ -100,21 +100,12 @@
   </PropertyGroup>
   <ItemGroup>
     
-    <ApplicationDefinition Include="App.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </ApplicationDefinition>
-    <Compile Include="App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
     <!--<Compile Include="Infrastructure\FastApplicationSwitchingService.cs" />-->
+
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Setup.cs" />
-    <Compile Include="Views\BaseView.cs" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="MainPage.xaml">

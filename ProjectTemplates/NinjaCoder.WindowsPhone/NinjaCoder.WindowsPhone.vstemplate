@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>NinjaCoder.WindowsPhone</Name>
+    <Description>NinjaCoder.WindowsPhone</Description>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>5a397541-d752-4fbb-b3d1-1a813d8dacde</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>NinjaCoder.WindowsPhone</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <Hidden>false</Hidden>
+  </TemplateData>
+  <TemplateContent>
+
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem TargetFileName="AssemblyInfo.cs" ReplaceParameters="true">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem TargetFileName="AppManifest.xml" ReplaceParameters="true">AppManifest.xml</ProjectItem>
+        <ProjectItem TargetFileName="WMAppManifest.xml" ReplaceParameters="true">WMAppManifest.xml</ProjectItem>
+      </Folder>
+      
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml">MainPage.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml.cs">MainPage.xaml.cs</ProjectItem>
+
+      <ProjectItem TargetFileName="ApplicationIcon.png">ApplicationIcon.png</ProjectItem>
+      <ProjectItem TargetFileName="Background.png">Background.png</ProjectItem>
+      <ProjectItem TargetFileName="SplashScreenImage.jpg">SplashScreenImage.jpg</ProjectItem>
+     
+    </Project>
+  </TemplateContent>
+</VSTemplate>
