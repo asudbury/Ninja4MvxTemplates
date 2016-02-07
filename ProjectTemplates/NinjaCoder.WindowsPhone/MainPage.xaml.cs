@@ -5,8 +5,6 @@
 // --------------------------------------------------------------------------------------------------------------------
 namespace $safeprojectname$
 {
-    using Xamarin.Forms;
-
     /// <summary>
     ///    Defines the MainPage.xaml type.
     /// </summary>
@@ -18,10 +16,6 @@ namespace $safeprojectname$
         public MainPage()
         {
             this.InitializeComponent();
-
-            Forms.Init();
-
-            this.Content = FormsHelper.GetMainPage().ConvertPageToUIElement(this);
         }
     }
 }

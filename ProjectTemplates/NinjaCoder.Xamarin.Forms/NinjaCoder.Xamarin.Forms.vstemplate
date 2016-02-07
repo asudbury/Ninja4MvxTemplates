@@ -10,7 +10,7 @@
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>NinjaCoder.Xamarin.Forms</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
-    <Hidden>false</Hidden>
+    <Hidden>true</Hidden>
   </TemplateData>
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">

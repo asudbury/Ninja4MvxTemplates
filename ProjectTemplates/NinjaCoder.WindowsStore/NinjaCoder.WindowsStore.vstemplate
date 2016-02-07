@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>NinjaCoder.WindowsStore</Name>
+    <Description>NinjaCoder.WindowsStore</Description>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>7baabdb0-29cd-4b6e-8337-a064b3d7ca5b</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>NinjaCoder.WindowsStore</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <Hidden>true</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+
+      <ProjectItem  ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
+      <ProjectItem  ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>
+      
+      <ProjectItem TargetFileName="Package.appxmanifest">Package.appxmanifest</ProjectItem>
+      
+      <Folder Name="Assets" TargetFolderName="Assets">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Logo.png">Logo.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="SmallLogo.png">SmallLogo.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="SplashScreen.png">SplashScreen.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="StoreLogo.png">StoreLogo.png</ProjectItem>
+      </Folder>
+
+    </Project>
+  </TemplateContent>
+</VSTemplate>

@@ -10,7 +10,7 @@
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>NinjaCoder.WindowsPhone</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
-    <Hidden>false</Hidden>
+    <Hidden>true</Hidden>
   </TemplateData>
   <TemplateContent>
 
